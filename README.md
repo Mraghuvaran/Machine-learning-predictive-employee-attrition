@@ -4,7 +4,8 @@ In this reposit you can find different models built for a classification problem
 ## Predict employee attrition:
 
 # Procedures: 
-1. Understanding the business problem. 
+
+## 1. Understanding the business problem. 
 
 Employee Attrition is a huge problem across industries and generally costs the company a lot for
 hiring, retraining, productivity and work loss for each employee who leaves. Price and Waters, a
@@ -18,24 +19,29 @@ The company wants you to predict whether an employee would quit in the near futu
 indicative of attrition.
 
 
-2. Converting into a data science problem. 
+## 2. Converting into a data science problem. 
 
 What can be done here is , we can build classification model weather the employee will leave or not with the given demographs.
 
-3. Exploring the data.(EDA)
+## 3. Exploring the data.(EDA)
 
 Explorating the given data like  the columns given by visualising or by getting the summary stats of the data.
 
 Packages used here for this visulaization are seaborn, matplotlib. 
 
-4. Preprocessing of the data. 
+## 4. Preprocessing of the data. 
 
 Preprocessing includes removal of un-necessary columns, filling the missing data & converting the data into appropriate changes.
 
-5. Feature engineering. 
+## 5. Feature engineering. 
 
 Using the existing columns to create new columns. 
 
-6. Model building & Evaluation.
 
+### Techniques 
 
+Using SMOTE to over sample the training data since the target variable is highly class imbalanced. 
+
+## 6. Model building & Evaluation.
+
+F1 score is used as the evaluation metric, so that it can balance both the classess. 
