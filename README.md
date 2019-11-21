@@ -48,7 +48,10 @@ Using SMOTE to over sample the training data since the target variable is highly
 
 F1 score is used as the evaluation metric, so that it can balance both the classess. 
 
+## Links for accessing the data. 
+
 **Test data -** https://github.com/Mraghuvaran/Machine-learning-predictive-employee-attrition/tree/master/Employee_attrition/Testdata
+
 **Train data -** https://github.com/Mraghuvaran/Machine-learning-predictive-employee-attrition/tree/master/Employee_attrition/Traindata
 
 **Employee data -** https://github.com/Mraghuvaran/Machine-learning-predictive-employee-attrition/tree/master/Employee_attrition/employee_data 
