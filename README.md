@@ -1,6 +1,8 @@
 # Machine-learning-
 In this reposit you can find different models built for a classification problem.
 
+
+## open folder for the dataset & the python file. 
 ## Predict employee attrition:
 
 # Procedures: 
